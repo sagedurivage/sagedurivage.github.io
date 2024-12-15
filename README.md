@@ -1,20 +1,11 @@
-# My Personal Website - [sagedurivage.github.io](https://sagedurivage.github.io)
-
-## About
-This is the source code for my personal website hosted on GitHub Pages.\
+# Welcome!
 This website serves as my portfolio and blog, showcasing my work and projects.
 
-## Features
-- A clean, responsive design.
-- Built with HTML, CSS, and JavaScript.
-- Simple, fast, and secure static site.
+## About Me
+I'm a mathematics student and computer science tutor with a passion for blending the technical and creative, committed to cross-functional collaboration to deliver practical yet imaginative solutions, whether it's problem-solving or artistic expression.\
+My foundation is in proof-based reasoning, data gathering, and algorithm design, with 3+ years of C++ and 3D modeling/rendering experience.
 
-## Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sagedurivage/sagedurivage.github.io.git
-   ```
-2. Open `index.html` in your browser to view the site locally.
-
-## License
-This project is open-source under the [MIT License](LICENSE).
+## My Socials
+- [LinkedIn](https://www.linkedin.com/in/sagedurivage/)
+- [Behance](https://www.behance.net/sagedurivage)
+- [Strava](https://www.strava.com/athletes/42401937)
