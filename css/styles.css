@@ -1,0 +1,108 @@
+
+/* General reset */
+body {
+    margin: 0;
+    font-family: 'Fira Code', monospace;
+    color: #ffffff;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ensure the page fills the screen */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+/* header {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Fira Code', monospace;
+} */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space between overlay, button, and canvas */
+    align-items: center;
+    flex-grow: 1; /* Allow main content to take up remaining space */
+    padding: 20px;
+    overflow: hidden; /* Prevent scrolling within the main area */
+    position: relative; /* Ensure the overlay doesn't affect layout */
+}
+
+
+/* 3D View Port styling */
+#canvas-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    pointer-events: none; /* Ensures canvas doesn't block interactions */
+}
+
+
+/* About Me section styling */
+#overlay {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+
+/* Social Links styling */
+#overlay ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+#overlay ul li {
+    margin: 5px 0;
+}
+
+#overlay ul li a {
+    color: #a5a5a5;
+    text-decoration: none;
+}
+
+#overlay ul li a:hover {
+    color: #ffffff;
+}
+
+
+/* MyButton styling */
+#button-container {
+    text-align: center;
+    margin: 20px 0;
+    z-index: 2;
+}
+
+#myButton {
+    padding: 10px 20px;
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    background-color: #00000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#myButton:hover {
+    background-color: #ffffff40;
+}
+
+
+/* Footer styling */
+footer {
+    text-align: center;
+    color: #606060;
+    margin: 20px 0;
+    z-index: 3;
+}
+
