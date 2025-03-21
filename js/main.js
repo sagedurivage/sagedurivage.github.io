@@ -19,7 +19,7 @@ const textureLoader = new THREE.TextureLoader();
 const texture1 = textureLoader.load('assets/textures/grayscale.png');
 const texture2 = textureLoader.load('assets/textures/grass.jpg');
 const texture3 = textureLoader.load('assets/textures/transition.png');
-const texture4 = textureLoader.load('assets/textures/lava.jpg');
+const texture4 = textureLoader.load('assets/textures/mossy-cobblestone.jpg');
 
 // Set initial texture
 let currentTexture = texture1;
