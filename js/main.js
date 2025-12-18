@@ -9,16 +9,16 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.getElementById('canvas-container').appendChild(renderer.domElement);
 
 // Change the background color
-renderer.setClearColor(0x232620);
+renderer.setClearColor(0x1f2022);
 
 // Create the cube geometry
-const geometry = new THREE.BoxGeometry(1, 1, 1);
+const geometry = new THREE.BoxGeometry(2, 2, 2);
 
 // Load textures
 const textureLoader = new THREE.TextureLoader();
 const texture1 = textureLoader.load('assets/textures/grayscale.png');
-const texture2 = textureLoader.load('assets/textures/grass.jpg');
-const texture3 = textureLoader.load('assets/textures/transition.png');
+const texture2 = textureLoader.load('assets/textures/rubics.png');
+const texture3 = textureLoader.load('assets/textures/dice.png');
 const texture4 = textureLoader.load('assets/textures/mossy_cobblestone.png');
 
 // Set initial texture
