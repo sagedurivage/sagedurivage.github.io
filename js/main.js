@@ -12,7 +12,7 @@ document.getElementById('canvas-container').appendChild(renderer.domElement);
 renderer.setClearColor(0x1f2022);
 
 // Create the cube geometry
-const geometry = new THREE.BoxGeometry(2, 2, 2);
+const geometry = new THREE.BoxGeometry(1.25, 1.25, 1.25);
 
 // Load textures
 const textureLoader = new THREE.TextureLoader();
